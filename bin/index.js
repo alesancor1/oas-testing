@@ -14,13 +14,15 @@ program
 
 program
     .command('generate <file>')
+    .requiredOption('--host <host>', 'host to use for requests')
     .option('-o, --output <path>', 'output directory', 'test')
-    .action((file, {output}) => {
+    .action((file, {output, host}) => {
         $RefParser.dereference(file).then((OasDoc) => {
             const testData = generateTestData(OasDoc);
             
             oatts.generate(file, {
                 samples: true,
+                host: host,
                 writeTo: output,
                 customValues: JSON.stringify(testData),
                 statusCodes: validCodes,

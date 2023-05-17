@@ -10,8 +10,9 @@ A command line interface is available to generate scaffolding and test cases wit
 npx oas-testing generate [options] <spec>
 ```
 
-| Option | Description |
-| --- | --- |
-| -o, --output <output> | output directory (default: "test")|
-| -V, --version | output the version number |
-| -h, --help | output usage information |
+| Option | Required | Description |
+| --- | --- | --- |
+| --host <host> | Yes |target hostname to use in test generation |
+| -o, --output <output> | No | output directory (default: "test")|
+| -V, --version | -- |output the version number |
+| -h, --help | -- |output usage information |
