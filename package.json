@@ -6,7 +6,7 @@
   "type": "module",
   "files": [
     "bin",
-    "utils"
+    "util"
   ],
   "keywords": [
     "openapi",
