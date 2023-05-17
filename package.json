@@ -8,6 +8,9 @@
     "bin",
     "util"
   ],
+  "bin": {
+    "oas-testing": "./bin/index.js"
+  },
   "keywords": [
     "openapi",
     "oas",
