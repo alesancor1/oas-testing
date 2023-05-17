@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { generateTestData, validCodes } from "../util/generator.js";
 import $RefParser from "@apidevtools/json-schema-ref-parser";
 import { program } from "commander";
