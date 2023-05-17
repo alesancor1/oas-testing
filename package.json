@@ -1,0 +1,29 @@
+{
+  "name": "oas-testing",
+  "version": "0.1.0",
+  "description": "Generate scaffolding for testing OpenAPI 3.0.x APIs",
+  "main": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "utils"
+  ],
+  "keywords": [
+    "openapi",
+    "oas",
+    "swagger",
+    "testing",
+    "scaffolding"
+  ],
+  "author": "alesancor1",
+  "contributors": [
+    "MaToSan24"
+  ],
+  "license": "GPLv3",
+  "dependencies": {
+    "@apidevtools/json-schema-ref-parser": "^9.0.9",
+    "@faker-js/faker": "^8.0.1",
+    "commander": "^10.0.1",
+    "oatts": "^1.6.0"
+  }
+}
