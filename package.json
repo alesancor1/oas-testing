@@ -1,6 +1,6 @@
 {
   "name": "oas-testing",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Generate scaffolding for testing OpenAPI 3.0.x APIs",
   "main": "./bin/index.js",
   "type": "module",
